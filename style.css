@@ -1,0 +1,236 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  
+ 
+
+  
+
+  
+ 
+}
+body {
+  margin: 5px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+  
+
+}
+nav a {
+  margin-right: 20px;
+  font-size: 14px;
+  padding-top: 5px;
+  border-radius: 6px;
+}
+nav svg {
+  margin-top: 5px;
+
+ 
+
+}
+.nav-item-active {
+  background-color: #ffffff;
+  color: #4516fe;
+  padding: 4px 8px;
+}
+header div{
+
+  
+}
+
+header {
+  background-color: #4516fe;
+  color:white;
+  position: relative;
+  height: 50vh;
+  padding: 4px 25px;
+}
+.header-image{
+ position: absolute;
+ right: 0px;
+ bottom: 0px;
+ width: 450px;
+ height: 350p;
+ top: 80px;
+}
+nav + div img {
+  width: 100px;
+
+}
+.header-text {
+  margin-top: 60px;
+}
+.header-text h2 {
+  font-size: 30px;
+  line-height: 48px;
+}
+.companies a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  
+ 
+}
+.companies {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.api  h1{
+  margin-left: 60px;
+}
+.cards {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 60px;
+  
+  
+
+}
+.cards div {
+  padding-left: 20px;
+  
+  padding-top: 10px;
+ 
+ 
+
+}
+.card {
+  width: 700px;
+}
+.card-active {
+  box-shadow: 0px -1px 31px -14px rgba(0,0,0,0.75);
+  border-radius: 20px;
+  width: 700px;
+}
+.blog-heading h1{
+  padding-left: 60px;
+  
+
+}
+.blog-cards {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.blog-card {
+  display: flex;
+  box-shadow: 0px -1px 47px -21px rgba(0,0,0,0.75);
+}
+.blog-image img {
+  width: 220px;
+  height: 100%;
+  
+ 
+}
+.blog-author {
+  order: 1;
+  padding-top: 20px;
+}
+.blog-bottom {
+
+  order: 2;
+  padding-top: 20px;
+}
+.blog-content {
+
+  order: 3;
+}
+.blog-card div {
+  padding-right: 20px
+}
+.faq-section {
+  display: flex;
+  margin-top: 40px;
+  background-color: aliceblue;
+  box-shadow: 0px -1px 47px -21px rgba(0,0,0,0.75);
+
+}
+.faq-content{
+  margin-left: 30px;
+}
+.faq-image {
+
+  margin-left: 140px;
+}
+.faq-content button {
+  width: 140px;
+  height: 30px;
+  color: white;
+  background-color: #4516fe;
+  border:none;
+
+}
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 240px;
+  align-items: center;
+  margin-top: 40px;
+
+}
+.download-email {
+  border: 1px solid black;
+  border-radius: 16px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+
+  padding-left: 80px
+}
+.download-email  form input {
+  border: none;
+}
+.download-email  form button {
+  background-color: #4516fe;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  width: 130px;
+  height: 30px;
+  
+
+}
+.footer-section{
+  display: flex;
+  background-color: #4516fe;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: white;
+  
+}
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+
+  
+}
+.list  li {
+  padding-left: 20px;
+}
+.footer-right  img{
+  margin-right: 8px;
+
+}
+.logos-list  li{
+  margin-right: 8px;
+
+
+
+}
+.logos-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  
+
+
+}
