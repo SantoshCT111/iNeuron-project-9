@@ -4,6 +4,8 @@
 
 * {
   font-family: "Poppins", sans-serif;
+
+
   
  
 
@@ -14,6 +16,7 @@
 }
 body {
   margin: 5px;
+  width: 100vw;
 }
 nav {
   display: flex;
@@ -213,6 +216,9 @@ nav + div img {
 
   
 }
+.read {
+  display: none;
+}
 .list  li {
   padding-left: 20px;
 }
@@ -233,4 +239,153 @@ nav + div img {
   
 
 
+}
+.bar {
+  display: none;
+}
+@media screen and (max-width:920px) {
+  body {
+  
+
+  }
+  nav a , nav svg {
+    display: none;
+  }
+  .bar {
+    display: block;
+    width: 40px;
+    margin-bottom: -50px;
+   
+
+  }
+  .bar img {
+    
+   
+  }
+.header-image {
+  width: 80vw;
+position: relative;
+order: 2;
+ 
+
+}
+
+header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  color: #000;
+}
+.header-text{
+  order: 3;
+}
+.card{
+  
+}
+.cards{
+  flex-wrap: wrap;
+  margin-left: 20px
+}
+  .blog-cards {
+    flex-direction: column;
+  }
+  .blog-card {
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+  .blog-image img{
+    width: 100%;
+    border-top-left-radius: 0;
+  }
+  .blog-content{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .faq-content{
+    width: 80%;
+    padding-right: 40px;
+  }
+  .faq-image img {
+    width: 100%;
+    
+  }
+  .faq-image {
+    margin-left: 20px;
+  }
+  .faq-section{
+    padding-bottom: 20px;
+  }
+.blog-content{
+    display: none;
+    
+  }
+  .read{
+    display: block;
+    order: 2;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #4516fe;
+    color: white;
+    width: 80px;
+  }
+  .blog-author button {
+    border: none;
+    border-radius: 10px;
+  }
+
+  .blog-author {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-cards{
+    display: flex;
+    flex-direction: row;
+  }
+  .blog-card {
+    width: 50vw;
+    padding-bottom: 20px;
+  }
+  .blog-bottom{
+    display: none;
+  }
+  .faq-section {
+    flex-direction: column-reverse;
+  }
+  .card-active {
+    width: 80%;
+  }
+  .download-section{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .download-email  form{
+    display: flex;
+    padding-left: 0;
+    width: 60vw;
+
+  }
+  .download-email form input {
+    border: none;
+    width: 180px;
+    margin-right: 10px;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+   .list{
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  .logo {
+    filter: invert(61%) sepia(93%) saturate(5187%) hue-rotate(193deg) brightness(95%) contrast(86%);
+  }
 }
